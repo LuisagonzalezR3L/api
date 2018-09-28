@@ -1,0 +1,8 @@
+{
+	"email_already_exists": "El correo electrónico ya existe",
+	"invalid_token": "Token invalido",
+	"no_token_present": "Ingrese un token",
+	"unauthorized": "No tiene acceso",
+	"unknown_email": "El correo electrónico no se encuentra en la base de datos",
+	"wrong_password": "Contraseña incorrecta"
+}

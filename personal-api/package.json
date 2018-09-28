@@ -1,0 +1,33 @@
+{
+  "name": "personal-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "connect-multiparty": "^2.2.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-custom-response": "^0.1.1",
+    "express-session": "^1.15.6",
+    "gulp": "^3.9.1",
+    "gulp-apidoc": "^0.2.8",
+    "i18n": "^0.8.3",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.2.17",
+    "mongoose-auto-increment": "^5.0.1",
+    "mongoose-findorcreate": "^3.0.0",
+    "mongoose-gen": "^2.1.1",
+    "mongoose-paginate": "^5.0.3",
+    "mongoose-timestamp": "^0.6.0",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "gulp apidoc && NODE_PATH=. nodemon server.js"
+  },
+  "author": "Luisa Gonzalez",
+  "license": "ISC"
+}
